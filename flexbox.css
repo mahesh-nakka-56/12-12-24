@@ -1,0 +1,170 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.container {
+    width: 1500px;
+    padding: 10px;
+
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10,.item11,.item12,.item13,.item14,.item15,.item16,.item17,.item18,.item19,.item20
+
+{
+    text-align: center;
+    width: 50px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.item15,.tem16,.item17,.item18,.item19,.item20
+ {
+    width: 100px;
+}
+
+.flexdirectionrow,.flexdirectioncolumn,.flexdirectionrowreverse,.flexdirectioncolumnreverse 
+{
+    border: 1px solid white;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.flexdirectioncolumn {
+    flex-direction: column;
+}
+
+.flexdirectionrowreverse {
+    flex-direction: row-reverse;
+}
+
+.flexdirectioncolumnreverse {
+    flex-direction: column-reverse;
+}
+
+.alignitemflexstart,
+.alignitemcenter,
+.alignitemflexend,
+.alignitemstretch,
+.justifycontentflexstart,
+.justifycontentcenter,
+.justifycontentflexend,
+.justifycontentspacebetween,
+.justifycontentspacearound,
+.justifycontentspaceevenly {
+    height: 200px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+}
+
+.alignitemflexstart {
+    align-items: flex-start;
+}
+
+.alignitemcenter {
+    align-items: center;
+}
+
+.alignitemflexend {
+    align-items: flex-end;
+}
+
+.alignitemstretch {
+    align-items: stretch;
+}
+
+.justifycontentflexstart {
+    justify-content: start;
+}
+
+.justifycontentcenter {
+    justify-content: center;
+}
+
+.justifycontentflexend {
+    justify-content: end;
+}
+
+.justifycontentspacebetween {
+    justify-content: space-between;
+}
+
+.justifycontentspacearound {
+    justify-content: space-around;
+}
+
+.justifycontentspaceevenly {
+    justify-content: space-evenly;
+}
+
+.aligncontentflexstart,
+.aligncontentcenter,
+.aligncontentflexend,
+.aligncontentstretch,
+.aligncontentspacebetween,
+.aligncontentspacearound {
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    gap: 10px;
+    padding: 50px;
+    flex-wrap: wrap;
+    margin-left: 550px;
+}
+
+.aligncontentflexstart {
+    align-content: start;
+}
+
+.aligncontentcenter {
+    align-content: center;
+}
+
+.aligncontentflexend {
+    align-content: flex-end;
+}
+
+.aligncontentstretch {
+    align-content: stretch;
+}
+
+.aligncontentspacebetween {
+    align-content: space-between;
+}
+
+.aligncontentspacearound {
+    align-content: space-around;
+}
